@@ -1,7 +1,7 @@
 import React from 'react'
 import "./nav.css";
 
-export const nav = () => {
+export const Nav = () => {
   return (
     <div>nav</div>
   )
