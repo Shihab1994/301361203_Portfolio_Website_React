@@ -1,9 +1,17 @@
+/**
+ * Description
+ * @authors Md Mahfuzul Islam
+ * @Id 301361203
+ * @date    2024-01-28 18:03:34
+ * @version 1.0.0
+ */
+
 import React from "react";
 import "./index.css";
-import {Header} from './coponents/header/Header'
-import {Nav} from './coponents/nav/Nav'
-import {About} from './coponents/about/About'
-import {Experience} from './coponents/experience/Experience'
+import { Header } from "./coponents/header/Header";
+import { Nav } from "./coponents/nav/Nav";
+import { About } from "./coponents/about/About";
+import { Experience } from "./coponents/experience/Experience";
 import { Service } from "./coponents/services/Service";
 import { Portfolio } from "./coponents/portfolio/portfolio";
 
