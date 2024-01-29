@@ -45,11 +45,11 @@
 
 :root{
     --color-bg:#1f1f38;
-    --color-bg-variant: #22c6c;
+    --color-bg-variant: #2c2c6c;
     --color-primary:#4db5ff;
-    --color-primary-variant: Orgba(77, 181, 255, 0.4);
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
-    --color-light: rgba (255, 255, 255, 0.6);
+    --color-light: rgba(255, 255, 255, 0.6);
 
     --transition: all 400ms ease;
 
@@ -75,9 +75,9 @@ background-image: url(../src/assests/bg-texture-2.jpg);
 }
 
 /*General styels*/
-ccontainer{
+container{
     width: var(--container-width-lg);
-    margin: auto;
+    margin: 0 auto;
 }
 
 h1,
@@ -85,7 +85,10 @@ h2,
 h3,
 h4,
 h5{
-    font-weight: 2.5rem;
+    font-weight: 500;
+}
+h1{
+    font-size: 2.5rem;
 }
 
 section{

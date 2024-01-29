@@ -14,6 +14,7 @@ import { About } from "./coponents/about/About";
 import { Experience } from "./coponents/experience/Experience";
 import { Service } from "./coponents/services/Service";
 import { Portfolio } from "./coponents/portfolio/portfolio";
+import {Contact} from "./coponents/contact/Contact";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <Experience />
       <Service />
       <Portfolio />
+      <Contact/>
     </div>
     // <div>
     //   <h1>Welcome to My React App</h1>

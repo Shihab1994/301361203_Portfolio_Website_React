@@ -12,6 +12,7 @@ import { CTA } from "./CTA";
 import { HeaderSocial } from "./HeaderSocial";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
+import me from '../../assests/me.jpg'
 
 export const Header = () => {
   return (
@@ -27,6 +28,9 @@ export const Header = () => {
         <a href="#contact" className="scroll__down">
           Scroll Down
         </a>
+        <div className="me">
+          <img src={me} alt="me" />
+        </div>
       </div>
     </header>
   );
