@@ -13,8 +13,9 @@ import { Nav } from "./coponents/nav/Nav";
 import { About } from "./coponents/about/About";
 import { Experience } from "./coponents/experience/Experience";
 import { Service } from "./coponents/services/Service";
-import { Portfolio } from "./coponents/portfolio/portfolio";
-import {Contact} from "./coponents/contact/Contact";
+import { Portfolio } from "./coponents/portfolio/Portfolio";
+import { Contact } from "./coponents/contact/Contact";
+import { Testimonial } from "./coponents/testimonials/testimonial";
 
 const App = () => {
   return (
@@ -25,12 +26,9 @@ const App = () => {
       <Experience />
       <Service />
       <Portfolio />
-      <Contact/>
+      <Contact />
+      <Testimonial />
     </div>
-    // <div>
-    //   <h1>Welcome to My React App</h1>
-    //   <p>This is a static paragraph in my web page.</p>
-    // </div>
   );
 };
 
