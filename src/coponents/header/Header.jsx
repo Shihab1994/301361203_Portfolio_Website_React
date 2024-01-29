@@ -10,7 +10,8 @@ import React from "react";
 import "./header.css";
 import { CTA } from "./CTA";
 import { HeaderSocial } from "./HeaderSocial";
-import me from '../../assests/me.jpg'
+import me from '../../assests/me.jpg';
+
 
 export const Header = () => {
   return (

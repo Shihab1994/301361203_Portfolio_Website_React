@@ -50,15 +50,19 @@ export const Footer = () => {
         <a href="https://facebookcom">
           <CiFacebook />
         </a>
-        <a href="https://instagram.com"><FaInstagram/></a>
-        <a href="https://facebookcom"><CiLinkedin/></a>
-        <a href="https://facebookcom"><CiTwitter/></a>
+        <a href="https://instagram.com">
+          <FaInstagram />
+        </a>
+        <a href="https://facebookcom">
+          <CiLinkedin />
+        </a>
+        <a href="https://facebookcom">
+          <CiTwitter />
+        </a>
       </div>
 
       <div className="footer__copyright">
-        <small>
-          &copy; MI. All rights reserved.
-        </small>
+        <small>&copy; MI. All rights reserved.</small>
       </div>
     </footer>
   );
