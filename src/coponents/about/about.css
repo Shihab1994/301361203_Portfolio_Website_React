@@ -77,6 +77,7 @@
     color: var(--color-light);
  }
 
+  /*Media qeries for md devices*/
  @media screen and (max-width: 1024px) {
      .about__container{
         grid-template-columns: 1fr;
