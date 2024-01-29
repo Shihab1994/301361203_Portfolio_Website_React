@@ -13,6 +13,7 @@ import { FaRegUser } from "react-icons/fa";
 import { MdOutlineLibraryBooks } from "react-icons/md";
 import { MdMiscellaneousServices } from "react-icons/md";
 import { FaRegMessage } from "react-icons/fa6";
+import { TfiCommentsSmiley } from "react-icons/tfi";
 import { useState } from "react";
 
 
@@ -61,7 +62,7 @@ export const Nav = () => {
         onClick={() => setActiveNav("#testimonial")}
         className={activeNav === "#testimonial" ? "active" : ""}
       >
-        <FaRegMessage />
+        <TfiCommentsSmiley />
       </a>
     </nav>
   );
