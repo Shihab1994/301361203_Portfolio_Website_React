@@ -16,6 +16,7 @@ import { Service } from "./coponents/services/Service";
 import { Portfolio } from "./coponents/portfolio/Portfolio";
 import { Contact } from "./coponents/contact/Contact";
 import { Testimonial } from "./coponents/testimonials/testimonial";
+import { Footer } from "./coponents/footer/Footer";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
       <Portfolio />
       <Contact />
       <Testimonial />
+      <Footer/>
     </div>
   );
 };

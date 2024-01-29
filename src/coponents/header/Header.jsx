@@ -10,8 +10,6 @@ import React from "react";
 import "./header.css";
 import { CTA } from "./CTA";
 import { HeaderSocial } from "./HeaderSocial";
-import { CiLinkedin } from "react-icons/ci";
-import { FaGithub } from "react-icons/fa";
 import me from '../../assests/me.jpg'
 
 export const Header = () => {
@@ -23,8 +21,6 @@ export const Header = () => {
         <h5 className="text-light">Junior Software Engineer</h5>
         <CTA />
         <HeaderSocial />
-        <CiLinkedin />
-        <FaGithub />
         <a href="#contact" className="scroll__down">
           Scroll Down
         </a>
