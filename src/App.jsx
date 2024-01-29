@@ -10,7 +10,7 @@ import React from "react";
 import "./index.css";
 import { Header } from "./coponents/header/Header";
 import { Nav } from "./coponents/nav/Nav";
-//import {About} from './coponents/about/About'
+import {About} from './coponents/about/About'
 import { Experience } from "./coponents/experience/Experience";
 import { Service } from "./coponents/services/Service";
 import { Portfolio } from "./coponents/portfolio/Portfolio";
@@ -23,7 +23,7 @@ const App = () => {
     <div>
       <Header />
       <Nav />
-      {/* <About /> */}
+      <About />
       <Experience />
       <Service />
       <Portfolio />
